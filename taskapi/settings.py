@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-sms$z6966uhunib0mbc44=6-(6n=5b7z%y3qgli$yp624-fzkf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'https://django-api-rw8r.onrender.com']
+ALLOWED_HOSTS = ['localhost', 'django-api-rw8r.onrender.com']
 
 
 # Application definition
@@ -124,3 +124,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CSRF_TRUSTED_ORIGIN = ['https://django-api-rw8r.onrender.com']
