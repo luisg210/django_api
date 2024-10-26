@@ -132,5 +132,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGIN = ['https://django-api-rw8r.onrender.com']
 
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:3000/"
+    os.getenv('FRONT_END')
 ]
